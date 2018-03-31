@@ -14,109 +14,26 @@ namespace WebApplication2.Controllers
         public Models.Fileserver fs;
         public Models.FileList fl;
 
-        // GET: Filelist/Listfiles
-        public ActionResult Listfiles()
+        // GET: Filelist/ListfilesKM01
+        public ActionResult ListfilesKM01()
         {
-            fs = new Models.Fileserver();
             fl = new Models.FileList();
-
-            fs.Uncpath = @"\\10.0.0.4\km01";
-            fs.User = "km01";
-            fs.Password = "Centric01%";
-
-            //fs.Uncpath = @"\\localhost\Users\madedroo";
-
-            fs.FileserverUse();
-
-            fl.Filelist = Directory.GetFiles(fs.Uncpath);
-
-            //ViewBag.Filelist = fl;
-
-            fs.FileserverClose();
-
-            return View(fl.Filelist);
+            
+            fl.Filelist = Directory.GetFiles("z:\\km01");
+           
+            return View("Listfiles",fl.Filelist);
         }
 
-
-
-
-
-/*        // GET: Filelist
-        public ActionResult Index()
+        // GET: Filelist/ListfilesKM02
+        public ActionResult ListfilesKM02()
         {
-            return View();
+            
+            fl = new Models.FileList();
+                     
+            fl.Filelist = Directory.GetFiles("z:\\km02");
+
+            return View("Listfiles",fl.Filelist);
         }
-
-        // GET: Filelist/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: Filelist/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Filelist/Create
-        [HttpPost]
-        public ActionResult Create(FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Filelist/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: Filelist/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Filelist/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Filelist/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }*/
+                        
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netuseapp", "..\netuseapp\netuseapp\netuseapp.csproj", "{52E32E7C-D9AA-4665-BA8C-32537B8DA7D2}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WebApplication2.Azure", "WebApplication2.Azure\WebApplication2.Azure.ccproj", "{76948259-7F99-4758-951F-6CBD90D84C4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{52E32E7C-D9AA-4665-BA8C-32537B8DA7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52E32E7C-D9AA-4665-BA8C-32537B8DA7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52E32E7C-D9AA-4665-BA8C-32537B8DA7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76948259-7F99-4758-951F-6CBD90D84C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76948259-7F99-4758-951F-6CBD90D84C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76948259-7F99-4758-951F-6CBD90D84C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76948259-7F99-4758-951F-6CBD90D84C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,8 @@
+52.233.155.198 (EUW-GW-0-IP)
+
+
+10.0.0.0/24
+
+<VirtualNetworkSite name="Group cloudservicewebapp2 USEAST-VNET-0-CL" Location="East US">
+
+<LocalNetworkSite name="5F2AA80D_EUW-VNET-0-LOCAL">

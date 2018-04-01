@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WebApplication2.Azure" generation="1" functional="0" release="0" Id="56306b47-3499-4b10-b657-3e822129b41e" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WebApplication2.Azure" generation="1" functional="0" release="0" Id="deb1127f-8200-4e5b-9d4d-94a008f58e28" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="WebApplication2.AzureGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -167,14 +167,14 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="828096df-e4e2-4b13-8154-6b2fadac4425" ref="Microsoft.RedDog.Contract\ServiceContract\WebApplication2.AzureContract@ServiceDefinition">
+    <implementation Id="690885f3-eadb-478b-848f-e10d69345183" ref="Microsoft.RedDog.Contract\ServiceContract\WebApplication2.AzureContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="81ce867c-5b9f-4ffd-8664-b59f70acd961" ref="Microsoft.RedDog.Contract\Interface\WebApplication2:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="4ed8ae2a-c07b-4595-afa7-217c990c1148" ref="Microsoft.RedDog.Contract\Interface\WebApplication2:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/WebApplication2.Azure/WebApplication2.AzureGroup/WebApplication2:Endpoint1" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="4e8ad38d-ce13-4989-8937-55c463057797" ref="Microsoft.RedDog.Contract\Interface\WebApplication2:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
+        <interfaceReference Id="a3f6ad75-d1ae-4cd3-87ee-7c0bb9518fcc" ref="Microsoft.RedDog.Contract\Interface\WebApplication2:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/WebApplication2.Azure/WebApplication2.AzureGroup/WebApplication2:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
           </inPort>

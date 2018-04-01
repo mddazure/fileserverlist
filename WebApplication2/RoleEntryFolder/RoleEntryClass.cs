@@ -71,10 +71,10 @@ namespace WebApplication2.RoleEntryFolder
         {
            try
             {
-                MountShare("\\\\10.0.0.4\\customers",
+                MountShare("\\\\10.0.0.5\\customers",
            "z:",
-           "customers",
-           "Centric01%");
+           "centric",
+           "pass01%");
                         }
             catch (Exception e)
             {
